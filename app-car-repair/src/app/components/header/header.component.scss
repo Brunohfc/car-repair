@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:host{
+    .header-container{
+        background-color: black;
+        height: 60px;
+        border-radius: 7px;
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            overflow: hidden;
+            
+            li{
+                float: left;
+                border-right: 2px solid white;
+                padding: 10px 0;
+                
+            }
+
+            li:last-child{
+                border-right: none;
+            }
+            li a {
+                display: block;
+                padding: 14px 16px;
+                text-align: center;
+                text-decoration: none;
+                color: aliceblue;
+
+            }
+        }
+        
+    }
+}
+
+.active{
+    background: rgb(196, 74, 196);
+    overflow: hidden;
+    border-radius: 8px;
+    margin-right: 10px;
+    
+}
