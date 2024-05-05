@@ -28,7 +28,7 @@
             li{
                 float: left;
                 border-right: 2px solid white;
-                padding: 10px 0;
+                padding: 10px 3px;
                 
             }
 
@@ -37,6 +37,7 @@
             }
             li a {
                 display: block;
+   
                 padding: 14px 16px;
                 text-align: center;
                 text-decoration: none;
@@ -54,4 +55,9 @@
     border-radius: 8px;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+a:hover{
+    background-color:  rgb(196, 74, 196);
+    border-radius: 8px;
 }
